@@ -14,5 +14,7 @@
             "email": "rozakilhamaditya@students.unnes.ac.id"
         }
     ],
-    "require": {}
+    "require": {
+        "nesbot/carbon": "^3.0"
+    }
 }

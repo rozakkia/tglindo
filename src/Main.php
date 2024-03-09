@@ -2,11 +2,15 @@
 
 namespace Rozak\TglIndo;
 
+use Carbon\Carbon;
+
 class Main
 {
 
-    public function tglIndo()
+    public function tglIndo($date)
     {
-        return "";
+        $carbon = Carbon::parse($date)->locale('id_ID');
+
+        return "Sekarang hari " . $carbon->dayName . " tanggal " . $carbon->translatedFormat('d F Y');
     }
 }
