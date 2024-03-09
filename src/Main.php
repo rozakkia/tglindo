@@ -1,6 +1,6 @@
 <?php
 
-namespace Rozak\TglIndo;
+namespace Rozak\Tglindo;
 
 use Carbon\Carbon;
 
